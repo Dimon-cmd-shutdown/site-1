@@ -5,10 +5,11 @@ html {
 body{
     height: 100%;
     min-height: 100vh;
+    
 }
 
 
-.wraper{
+.wraper-1 {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -16,12 +17,16 @@ body{
     min-height: 751px;
     background-image:  url('../img/designer_1.png') ;
     background-repeat: no-repeat ;
-    background-size: 1030px 792px ;
+    background-size: contain ;
     background-position:100% 0%;       
+}
+.wraper-1.subpage{
+    background-image: none;
 }
 
 header{
     flex:0 0 62px;
+    height: 62px;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -242,6 +247,7 @@ header{
      min-height: 1630.39px;
      display:flex;
      flex-direction: column;
+     text-align: justify;
      
  }
 
@@ -343,7 +349,7 @@ header{
     line-height: 48px;
     margin-top: -300px;
     color:#091133;
-    padding-bottom: 16px;
+    margin-bottom: 29px;
     margin-top: 40px;
 }
 
@@ -353,6 +359,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;   
+    text-align: center;
 }
 
 .wraper-4-subtitle{
@@ -360,7 +367,7 @@ header{
     font-size: 16px;
     line-height: 26px;
     color:#6F7CB2;  
-    padding-bottom: 35.82px;
+    margin-bottom: 35.82px;
 }
 
 .wraper-4-price{
@@ -376,7 +383,7 @@ header{
     font-size: 16px;
     line-height: 26px;
     color:#37447E;  
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .wraper-4-price-2{
@@ -384,7 +391,7 @@ header{
     font-size: 14px;
     line-height: 24px;
     color:#5D6970;  
-    padding-bottom: 9.03px;
+    margin-bottom: 9.03px;
 }
 
 .wraper-5{
@@ -394,9 +401,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-top: -216px;
-    justify-content: center;
-    
-    
+    justify-content: center;      
 }
 
 .landie-2{
@@ -414,7 +419,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 61px; 
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .wraper-5-first-block-1-span{
