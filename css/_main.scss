@@ -36,6 +36,8 @@ header{
 .a-first-list{
     text-decoration: none;
     color: #505F98;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .nav-first-list{
@@ -400,6 +402,7 @@ header{
     position:relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: -216px;
     justify-content: center;      
 }
@@ -433,4 +436,20 @@ header{
     width: 1110px;
     height: 1px;
     background-color: #CDD1D4;
+}
+
+.wraper-5-down-container{
+    height: 24px;
+    width: 1110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+.icons-container{
+    height: 16px;
+    width: 196px;
+    display: flex;
+    justify-content: space-between;
 }
