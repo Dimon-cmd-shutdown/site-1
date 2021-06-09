@@ -14,7 +14,19 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: flex-start;
 }
+
+.wraper-404{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(177, 185, 185);
+    font-size: 50px;
+    font-weight: 500;
+}
+
 
 .wraper-1 {
     display: flex;
@@ -36,9 +48,6 @@ body{
     left:603px;
 }
 
-.wraper-1.subpage{
-    background-image: none;
-}
 
 header{
     flex:0 0 62px;

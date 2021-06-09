@@ -203,6 +203,25 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.wraper-404 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b1b9b9;
+  font-size: 50px;
+  font-weight: 500;
 }
 
 .wraper-1 {
@@ -224,10 +243,6 @@ body {
   position: absolute;
   z-index: -1;
   left: 603px;
-}
-
-.wraper-1.subpage {
-  background-image: none;
 }
 
 header {
