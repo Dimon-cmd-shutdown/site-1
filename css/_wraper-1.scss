@@ -1,0 +1,134 @@
+.wraper-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    min-height: 751px;
+    // background-image:  url('../img/designer_1.png') ;
+    // background-repeat: no-repeat ;
+    // background-size: contain ;
+    // background-position:100% 0%;       
+}
+
+.img-wraper-1{
+    width: 850px;
+    height: 791px;
+    position: absolute;
+    z-index: -1;
+    left:733px;
+}
+
+.a-first-list{
+    text-decoration: none;
+    color: #505F98;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-first-list{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landie{
+    margin-right: 130px;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    color:#37447E;
+    
+}
+
+.landie-a{
+    text-decoration:none;
+    color: #37447E; 
+}
+
+.buy{
+    width: 160px;
+    height: 26px;
+    background-color:#111B47 ;
+    border-radius: 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buy-button{
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+    
+}
+
+.main-page-topic{
+    margin-top:241px;
+    width:550px;
+    height: 450px;
+    margin-left:155px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.heading-main-page{
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+
+}
+
+.second-span-main-page{
+    padding-bottom: 69px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#505F98;
+    line-height: 30px;
+}
+
+.container-2blocks-main-page{
+    width:408.15px;
+    height: 36px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.first-block-main-page{
+    width: 189px;
+    height: 36px;
+    background-color: #111B47;
+    border-radius: 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-block-main-page{
+    width: 189px;
+    height: 36px;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-block-main-page-word{
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.second-block-main-page-word{
+    color:#091133;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,76 @@
+.wraper-second-page{
+    height:100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    padding: 140px 0px 0px 165px;
+    box-sizing: border-box;
+}
+
+.wraper-second-page-main-img{
+    width: 350px;
+    height: 700px;
+    position:absolute;
+    left:966px;
+    bottom:1px;
+}
+
+.wraper-second-page-txt{
+    width: 520px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 71px;
+}
+
+.wraper-second-page-title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 16px;
+}
+
+.wraper-second-page-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#6F7CB2;
+}
+
+.wraper-second-page-txt2{
+    width: 526px;
+    height: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+.wraper-second-page-txt2-container-icon{
+    width: 51px;
+    height: 49px;
+    padding-bottom: 14px;
+}
+
+.wraper-second-page-txt2-container{
+    height: 136px;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wraper-second-page-title2{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color:#091133;
+    padding-bottom: 6px;
+}
+
+.wraper-second-page-subtitle2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color:#5D6970;
+    text-align: start;
+}

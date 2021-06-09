@@ -1,0 +1,56 @@
+.wraper-5{
+    height: 216px;
+    background-color: #E7ECFF;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;      
+}
+
+.landie-2{
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    color:#37447E;
+    margin-left: 19px;
+}
+
+.wraper-5-first-block{
+    width: 1110px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 61px; 
+    margin-bottom: 40px;
+}
+
+.wraper-5-first-block-1-span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color:#939EA4;   
+}
+
+.wraper-5-rectangle{
+    width: 1110px;
+    height: 1px;
+    background-color: #CDD1D4;
+}
+
+.wraper-5-down-container{
+    height: 24px;
+    width: 1110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+.icons-container{
+    height: 16px;
+    width: 196px;
+    display: flex;
+    justify-content: space-between;
+}
